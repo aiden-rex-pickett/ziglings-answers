@@ -26,7 +26,7 @@ const std = @import("std");
 
 const c = @cImport({
     // What do we need here?
-    ???
+    @cInclude("math")
 });
 
 pub fn main() !void {
